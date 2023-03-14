@@ -1,2 +1,2 @@
 #!/bin/bash
-tac input_file > output_file
+echo "$1" | rev
