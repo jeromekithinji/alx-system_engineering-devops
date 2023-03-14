@@ -1,4 +1,4 @@
 #!/bin/bash
-echo "$(set -o posix ; set)"
-echo "$(env)"
-echo "$(declare -F)"
+set -o posix ; set
+env
+declare -F
