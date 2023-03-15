@@ -1,4 +1,3 @@
 #!/bin/bash
-TRUEKNOWLEDGE=$TRUEKNOWLEDGE
-RESULT=$((TRUEKNOWLEDGE+128))
-echo $RESULT
+result=$(($TRUEKNOWLEDGE + 128))
+echo $result
