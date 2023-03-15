@@ -2,4 +2,4 @@
 water_10=$((16#"$WATER"))
 stir_10=$((16#"$STIR"))
 result_10=$((water_10 + stir_10))
-bestchol=$(echo $result_10 | bc)
+bestchol=$result_10
